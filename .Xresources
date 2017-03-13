@@ -1,0 +1,11 @@
+! ------------------------------------------------------------------------------
+! URXVT
+! ------------------------------------------------------------------------------
+URxvt.scrollBar: false
+URxvt.mouseWheelScrollPage: true
+URxvt.background: #343633
+URxvt.font: xft:boxxy
+URxvt*foreground: White
+URxvt.internalBorder:  12
+
+

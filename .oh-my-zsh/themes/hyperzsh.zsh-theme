@@ -1,6 +1,6 @@
 # The prompt
 PROMPT='$(_user_host)$(_python_venv)%{$fg[magenta]%}%c $(git_prompt_info)%{$reset_color%}${_return_status}➜ '
-RPROMPT='%{$reset_color%}$(_git_time_since_commit)$(git_prompt_status) '
+RPROMPT='%{$reset_color%}$(_git_time_since_commit)$(git_prompt_status)%{$reset_color%} '
 # Prompt with SHA
 # PROMPT='$(_user_host)$(_python_venv)%{$fg[cyan]%}%c $(git_prompt_info)%{$reset_color%}$(git_prompt_short_sha)%{$fg[magenta]%}$(_git_time_since_commit)$(git_prompt_status)${_return_status}➜ '
 

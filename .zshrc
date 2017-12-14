@@ -83,11 +83,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-xset b off
-
-bindkey "^[Oc" forward-word
-bindkey "^[Od" backward-word
-bindkey "^H" backward-kill-word
-
-#change dark blue ls color
-LS_COLORS=$LS_COLORS:'di=0;35:' ; export LS_COLORS

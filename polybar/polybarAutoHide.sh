@@ -7,7 +7,7 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 # Obtain bar's window id
-id=$(xwininfo -name "polybar-test_eDP-1" | grep "xwininfo: " | cut -d ' ' -f 4)
+id=$(xwininfo -name "polybar-example_eDP1" | grep "xwininfo: " | cut -d ' ' -f 4)
 # Toggle bar visibility
 if xprop -id $id | grep -q "Normal"; then
     xdotool windowunmap $id

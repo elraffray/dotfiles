@@ -1,0 +1,114 @@
+* {
+  al:  #00000000;
+  bg:  #1d1f21;
+  se:  #198844;
+  fg:  #c5c8c6;
+  ac:  #198844;
+  green: #198844;
+  red: #cc342b;
+}
+
+
+configuration {
+    lines:							15;
+    columns:						1;
+    font: 							"Fira Code Retina 15";
+    bw: 							0;
+    location: 						0;
+    padding: 						0;
+    fixed-num-lines: 				true;
+    show-icons: 					true;
+    sidebar-mode: 					true;
+    separator-style: 				"none";
+    hide-scrollbar: 				true;
+    fullscreen: 					false;
+    fake-transparency: 				false;
+    scroll-method: 					0;
+    window-format: 					"[{w}] ··· {c} ···   {t}";
+    click-to-exit: 					true;
+    show-match: 					false;
+    combi-hide-mode-prefix: 		false;
+    display-window: 				"";
+    display-windowcd: 				"";
+    display-run: 					"";
+    display-ssh: 					"";
+    display-drun: 					"";
+    display-combi: 					"";
+}
+
+
+* {
+    background-color:             	@bg;
+}
+
+window {
+    border: 8px;
+    border-color: @ac;
+    padding: 						30;
+    width: 							30%;
+}
+
+prompt {
+    spacing: 						0;
+    border: 						0;
+    text-color: 					@fg;
+}
+
+textbox-prompt-colon {
+    expand: 						false;
+    str: 							" ";
+    margin:							0px 4px 0px 0px;
+    text-color: 					inherit;
+}
+
+entry {
+    spacing:    					0;
+    text-color: 					@fg;
+}
+
+case-indicator {
+    spacing:    					0;
+    text-color: 					@fg;
+}
+
+inputbar {
+    spacing:    					0px;
+    text-color: 					@fg;
+    padding:    					1px;
+    children: 						[ prompt,textbox-prompt-colon,entry ];
+}
+
+mainbox {
+    border: 						0px;
+    border-color: 					@ac;
+    padding: 						6;
+}
+
+listview {
+    fixed-height: 					0;
+    border: 						0px;
+    border-color: 					@ac;
+    spacing: 						4px;
+    scrollbar: 						false;
+    padding: 						5px 5px 0px 5px;
+}
+
+element-text {
+    text-color:       				@fg;
+}
+
+element-text selected {
+    text-color:       				@ac;
+}
+
+element {
+    spacing: 20px;
+    border: 						0px;
+    border-radius: 					4px;
+    padding: 						10px;
+    background-color: 				@bg;
+}
+
+button {
+    enabled:                        false;
+}

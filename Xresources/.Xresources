@@ -1,0 +1,47 @@
+! special
+*.foreground:   #c5c8c6
+*.background:   #1d1f21
+*.cursorColor:  #c5c8c6
+*.primary:  #198844
+
+! black
+*.color0:       #1d1f21
+*.color8:       #969896
+
+! red
+*.color1:       #cc342b
+*.color9:       #e82014
+
+! green
+*.color2:       #198844
+*.color10:      #16ba5d
+
+! yellow
+*.color3:       #fba922
+*.color11:      #f3d339
+
+! blue
+*.color4:       #3971ed
+*.color12:      #3d84ff
+
+! magenta
+*.color5:       #a36ac7
+*.color13:      #d489fa
+
+! cyan
+*.color6:       #37bee0
+*.color14:      #43eaf1
+
+! white
+*.color7:       #c5c8c6
+*.color15:      #ffffff
+
+
+
+Xft.antialias:  1
+Xft.autohint:   0
+Xft.dpi:        96
+Xft.hinting:    1
+Xft.hintstyle:  hintslight
+Xft.lcdfilter:  lcddefault
+Xft.rgba:       rgb

@@ -1,0 +1,30 @@
+[window]
+decorations = "None"
+
+[window.padding]
+x = 20
+y = 15
+
+[colors.primary]
+background = "#1d1f21"
+foreground = "#c5c8c6"
+
+[colors.normal]
+black = "#1d1f21"
+red = "#cc342b"
+green = "#198844"
+yellow = "#fba922"
+blue = "#3971ed"
+magenta = "#a36ac7"
+cyan = "#37bee0"
+white = "#c5c8c6"
+
+[colors.bright]
+black = "#969896"
+red = "#e82014"
+green = "#16ba5d"
+yellow = "#f3d339"
+blue = "#3d84ff"
+magenta = "#d489fa"
+cyan = "#43eaf1"
+white = "#ffffff"

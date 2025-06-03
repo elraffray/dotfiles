@@ -222,9 +222,27 @@ exec --no-startup-id picom -b
 bindsym $mod+Shift+p exec --no-startup-id "pkill picom; picom -b"
 
 # No title bars
-for_window [class="^.*"] border pixel 8
+for_window [class="^.*"] border pixel 4
 
 # Gaps
-gaps outer -15px
+gaps outer -5px
+gaps top -15px
 gaps inner 15px
-smart_gaps on
+smart_gaps off
+
+
+# Monitor workspace assignment
+
+set $primary_monitor "DP-4"
+set $secondary_monitor "HDMI-1"
+
+workspace $ws1 output $primary_monitor
+workspace $ws2 output $primary_monitor
+workspace $ws3 output $primary_monitor
+workspace $ws4 output $primary_monitor
+workspace $ws5 output $primary_monitor
+workspace $ws6 output $secondary_monitor
+workspace $ws7 output $secondary_monitor
+workspace $ws8 output $secondary_monitor
+workspace $ws9 output $secondary_monitor
+workspace $ws10 output $secondary_monitor
